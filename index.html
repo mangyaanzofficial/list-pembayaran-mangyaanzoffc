@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List Peyment Mang Yaanz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Music -->
+<audio id="bg-music" autoplay loop>
+  <source src="https://raw.githubusercontent.com/NdikzDatabase/Database/main/Database/1755773576232-neawek.mpeg" type="audio/mpeg">
+  Browser Anda tidak mendukung audio.
+</audio>
+
+  <div class="container">
+    <h1 class="title">Metode Pembayaran</h1>
+    <p class="subtitle">Pilih metode pembayaran Anda, 
+      Pastikan nomor tujuan sesuai sebelum melakukan transaksi.
+    </p>
+
+    <!-- Tombol Musik -->
+<button id="music-btn" onclick="toggleMusic()">
+  ▶️ Play
+</button>
+
+    <div class="card">
+      <h2>DANA🪙</h2>
+      <h2>A/N : ROXXXXXH</h2>
+      <p class="number" id="dana">0857-8061-4462</p>
+      <button onclick="copyText('dana')">Salin Nomor</button>
+    </div>
+
+    <div class="card">
+      <h2>GOPAY💰</h2>
+      <h2>A/N : Mang Yaanz</h2>
+      <p class="number" id="gopay">0857-1382-6346</p>
+      <button onclick="copyText('gopay')">Salin Nomor</button>
+    </div>
+
+    <div class="card">
+      <h2>QRIS ALL PAYMENT</h2>
+      <img src="https://raw.githubusercontent.com/NdikzDatabase/Database/main/Database/1755773926452-4mdrmr.jpg" alt="QRIS" class="qris">
+    </div>
+
+    <div class="info">
+      <h3>Informasi Terkait Transaksi❗</h3>
+      <p>Pastikan Anda mentransfer sesuai nominal yang disepakati.  
+      Simpan bukti transfer dan lakukan konfirmasi setelah pembayaran kepada admin.</p>
+      <h3>Quotes📍</h3>
+      <p>"Di bumi selalu ada seseorang yang hanya bisa dikagumi, tapi tidak bisa dimiliki."</p>
+      <p>&copy; 3726 Mdpl</p>
+    </div>
+  </div>
+
+  <!-- Notifikasi copy -->
+  <div id="toast">Nomor berhasil disalin!</div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; Mang Yaanz Official | Semua Hak Dilindungi</p>
+      <p class="footer-text">Website ini dibuat untuk mempermudah transaksi Pengguna.</p>
+      <p>&copy;2025.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
